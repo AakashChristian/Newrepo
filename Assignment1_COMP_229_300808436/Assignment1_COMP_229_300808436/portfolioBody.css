@@ -1,0 +1,14 @@
+﻿body {
+	background-image: url('images/BG_Assgn1.jpg');
+	color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+table {
+	vertical-align: 0%;
+	word-spacing: 0em;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
