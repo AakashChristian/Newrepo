@@ -11,22 +11,16 @@
     <meta content="en-us" http-equiv="Content-Language">
     <title>MyPortfolio</title>
 	<meta charset="utf-8" />
-	<link href="portfolioBody.css" rel="stylesheet" type="text/css">
+	<link href="PortfolioPage.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-	.auto-style1 {
-		text-align: center;
-	}
-	.auto-style2 {
-		vertical-align: middle;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
+	
 	</style>
 </head>
 <body>
 <form id="form1" runat="server">
 <div class="auto-style1">
-	<img alt="" class="auto-style2" height="60" src="images/PortfolioBanner.jpg" width="468"></div>
+	<img alt="" class="auto-style2" height="60" src="images/PortfolioBanner.jpg" width="468"><br />
+    <a href ="home.aspx" style="color: #C0C0C0; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none;">Home</a></div><br>
 	<div>
 		<asp:Panel id="Panel1" runat="server"><div>
             <asp:Image ID="Image1" runat="server" ImageUrl="~/images/DSC008462.jpg" />
