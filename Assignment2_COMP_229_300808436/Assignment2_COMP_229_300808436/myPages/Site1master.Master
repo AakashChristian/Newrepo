@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1master.master.cs" Inherits="Assignment2_COMP_229_300808436.myPages.Site1master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MasterPage </title>
+    <link rel="stylesheet" type="text/css" href="../myCss/StyleSheet1.css" />
+   
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    
+    </form>
+        <footer style="vertical-align: bottom; margin-bottom: 500px">© Copyright Aakash Christian - 300808436 - Assignment_2_COMP229_Survey</footer>
+    </body>
+    
+</html>
