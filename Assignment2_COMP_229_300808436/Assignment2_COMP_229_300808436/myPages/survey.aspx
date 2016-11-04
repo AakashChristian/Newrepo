@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Survey Page" Language="C#" MasterPageFile="~/myPages/Site1master.Master" AutoEventWireup="true" CodeBehind="survey.aspx.cs" Inherits="Assignment2_COMP_229_300808436.myPages.survey" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h3>WELCOME TO THE SURVEY</h3>
-    <table class="auto-style1" style="margin:0px; margin-left:285px; margin-right:150px">
+    <table class="auto-style1" style="margin:0px; margin-left:370px; margin-right:150px">
         <tr>
             <td style="text-align: right">First Name: </td>
             <td style="text-align: left">
@@ -38,6 +38,8 @@
             <td style="text-align: right">Phone No: </td>
             <td style="text-align: left">
                 <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+            &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage="Phone Number Required!"></asp:RequiredFieldValidator>
+            &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ValidationExpression="[0-9]{10}" ControlToValidate="TextBox4" ErrorMessage="Please Enter Valid Phone Number!"></asp:RegularExpressionValidator>
             </td>
         </tr>
     </table>
@@ -74,5 +76,5 @@
 
     <br/>
 
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
+    <asp:Button ID="Button1" runat="server" PostBackUrl="~/myPages/ThankYou.aspx" Text="Submit" />
 </asp:Content>
