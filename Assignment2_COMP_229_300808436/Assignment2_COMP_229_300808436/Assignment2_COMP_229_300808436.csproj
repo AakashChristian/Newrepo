@@ -180,6 +180,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <Content Include="myCss\StyleSheet1.css" />
+    <Content Include="myImages\bannerPianored.png" />
     <Content Include="myImages\piano.jpg" />
     <Content Include="myPages\index.aspx" />
     <Content Include="WebForm1.aspx" />

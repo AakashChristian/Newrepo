@@ -1,12 +1,19 @@
 ﻿body {
    
 	color: #CCCCCC;
-	background-image: url("../myImages/piano.jpg");
+	background-color:black;
 	background-repeat: no-repeat;
     background-position:center;
     background-position-y:50px;
   background-size:1370px 576px;
-
- 
-  
+}
+div{
+    align-items:center;
+    text-align: center;
+}
+form
+{
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:50px;
 }
