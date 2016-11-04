@@ -3,9 +3,9 @@
 	color: #CCCCCC;
 	background-color:black;
 	background-repeat: no-repeat;
-    background-position:center;
-    background-position-y:50px;
-  background-size:1370px 576px;
+    background-position:center 50px;
+    background-size:1370px 576px;
+    text-align: left;
 }
 div{
     align-items:center;

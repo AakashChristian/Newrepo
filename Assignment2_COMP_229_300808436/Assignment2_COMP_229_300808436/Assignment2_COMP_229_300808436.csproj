@@ -183,6 +183,7 @@
     <Content Include="myImages\bannerPianored.png" />
     <Content Include="myImages\piano.jpg" />
     <Content Include="myPages\index.aspx" />
+    <Content Include="myPages\survey.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="myPages\Site1master.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -381,6 +382,13 @@
     </Compile>
     <Compile Include="myPages\Site1master.Master.designer.cs">
       <DependentUpon>Site1master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="myPages\survey.aspx.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myPages\survey.aspx.designer.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
