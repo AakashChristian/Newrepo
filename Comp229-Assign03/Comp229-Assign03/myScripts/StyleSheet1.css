@@ -1,0 +1,41 @@
+﻿@import url('StyleSheet1.css');
+body {
+    background:url("../myImages/ptw039.jpg");
+    background-repeat:round;
+    text-decoration-color:antiquewhite;
+    color:white;
+    text-align:center;
+    background-position:center;
+}
+table{
+    text-align:center;
+    background-color:black;
+    color:darkgray;
+    text-decoration:none;
+}
+ .auto-style1 {
+            width: 806px;
+            height: 0px;
+        }
+        .auto-style2 {
+            width: 268px;
+        }
+
+footer{
+    text-align:center;
+    font-size:small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:black;
+    color:darkgray;
+    margin-left:320px;
+    margin-right:320px;
+    
+}
+button{
+    width:100px;
+}
+h1{
+    text-align:center;
+    color:lightgrey;
+    
+}

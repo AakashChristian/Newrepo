@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="nySite.master.cs" Inherits="Comp229_Assign03.myPages.nySite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../myScripts/StyleSheet1.css"/>
+    <link rel="stylesheet" type="text/css" href="../myScripts/bootstrap.css"/>
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/myImages/static-banner-students.png" PostBackUrl="~/myPages/home.aspx" />
+
+        </div>
+        <div><h1><i>ELITE HIGH SCHOOL</i></h1></div>
+        <br/>
+        <div>
+
+            <table align="center">
+                <tr>
+                    <td class="auto-style2"><i><a href="home.aspx" style="text-decoration: none; color: #CCCCCC">Home</a></i></td>
+                    <td class="auto-style2"><i><a href="studentInfo.aspx" style="color: #CCCCCC; text-decoration: none">Student Info</a></i></td>
+                    <td class="auto-style2"><i>Course Info</i></td>
+                </tr>
+            </table>
+
+        </div>
+        <br/>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <br/>
+    <footer>&copy; Copyright Aakash Christian 300808436 <b>Comp229-Assign03</b> </footer>
+</body>
+</html>
