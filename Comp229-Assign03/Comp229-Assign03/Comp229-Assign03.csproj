@@ -181,10 +181,12 @@
     <Content Include="myImages\background.jpg" />
     <Content Include="myImages\ptw039.jpg" />
     <Content Include="myImages\static-banner-students.png" />
+    <Content Include="myPages\addstudent.aspx" />
+    <Content Include="myPages\courseenrollment.aspx" />
     <Content Include="myPages\home.aspx" />
     <Content Include="myPages\nySite.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="myPages\studentInfo.aspx" />
+    <Content Include="myPages\student.aspx" />
     <Content Include="myScripts\bootstrap.css" />
     <Content Include="myScripts\bootstrap.js" />
     <Content Include="myScripts\bootstrap.min.css" />
@@ -348,6 +350,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="myPages\addstudent.aspx.cs">
+      <DependentUpon>addstudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myPages\addstudent.aspx.designer.cs">
+      <DependentUpon>addstudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myPages\courseenrollment.aspx.cs">
+      <DependentUpon>courseenrollment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myPages\courseenrollment.aspx.designer.cs">
+      <DependentUpon>courseenrollment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="myPages\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -355,6 +371,7 @@
     <Compile Include="myPages\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="myPages\MySqlCommand.cs" />
     <Compile Include="myPages\nySite.Master.cs">
       <DependentUpon>nySite.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -362,12 +379,12 @@
     <Compile Include="myPages\nySite.Master.designer.cs">
       <DependentUpon>nySite.Master</DependentUpon>
     </Compile>
-    <Compile Include="myPages\studentInfo.aspx.cs">
-      <DependentUpon>studentInfo.aspx</DependentUpon>
+    <Compile Include="myPages\student.aspx.cs">
+      <DependentUpon>student.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="myPages\studentInfo.aspx.designer.cs">
-      <DependentUpon>studentInfo.aspx</DependentUpon>
+    <Compile Include="myPages\student.aspx.designer.cs">
+      <DependentUpon>student.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
