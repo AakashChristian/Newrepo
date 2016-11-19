@@ -130,6 +130,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
+    height: 26px;
 }
 button[disabled],
 html input[disabled] {
@@ -1317,7 +1318,7 @@ mark,
   text-align: right;
 }
 .text-center {
-  text-align: center;
+  text-align: right;
 }
 .text-justify {
   text-align: justify;

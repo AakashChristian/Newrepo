@@ -26,7 +26,6 @@
             <table style="background-color: #000000" align="center">
                 <tr>
                     <td class="auto-style2"><i><a href="home.aspx" style="text-decoration: none; color: #CCCCCC; text-align: center;">Home</a></i></td>
-                    <td class="auto-style2"><i><a href="student.aspx" style="color: #CCCCCC; text-decoration: none; text-align: center;">Student Info</a></i></td>
                     <td class="auto-style2"><i><a href="courseenrollment.aspx" style="color: #CCCCCC; text-decoration: none">Course Info</a></i></td>
                 </tr>
             </table>
